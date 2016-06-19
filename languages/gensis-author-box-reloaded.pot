@@ -1,0 +1,232 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: Genesis Author Box Reloaded Plugin\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-06-19 17:14-0400\n"
+"PO-Revision-Date: 2016-06-19 17:14-0400\n"
+"Last-Translator: \n"
+"Language-Team: Ren Ventura <mail@engagewp.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Sun Jun 19 2016 17:14:24 GMT-0500 (EST)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: genesis-author-box-reloaded.php:133
+msgid "Genesis Author Box requires the "
+msgstr ""
+
+#: genesis-author-box-reloaded.php:134
+msgid "Genesis Framework."
+msgstr ""
+
+#: includes/admin/ajax.php:21
+msgid "Security"
+msgstr ""
+
+#: includes/admin/ajax.php:27
+msgid "No license key provided."
+msgstr ""
+
+#: includes/admin/ajax.php:42
+msgid "Your license was successfully activated!"
+msgstr ""
+
+#: includes/admin/ajax.php:46
+msgid "Your license was successfully deactivated."
+msgstr ""
+
+#: includes/admin/ajax.php:50
+msgid "License checked."
+msgstr ""
+
+#: includes/admin/ajax.php:68 includes/admin/updater/licenses-api.php:334
+msgid "Error"
+msgstr ""
+
+#: includes/admin/settings.php:55
+msgid "Genesis Author Box Reloaded Settings"
+msgstr ""
+
+#: includes/admin/updater/licenses-api.php:186
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: includes/admin/updater/licenses-api.php:193
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: includes/admin/updater/licenses-api.php:334
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/admin/updater/licenses.php:95
+msgid "Bad response in send_request"
+msgstr ""
+
+#: includes/admin/updater/licenses.php:129
+msgid "License data not saved"
+msgstr ""
+
+#: includes/admin/updater/licenses.php:144
+msgid "License data not deleted"
+msgstr ""
+
+#: includes/admin/updater/licenses.php:165
+msgid "Error while activating license"
+msgstr ""
+
+#: includes/admin/updater/licenses.php:201
+msgid "Error while checking license"
+msgstr ""
+
+#: includes/admin/updater/licenses.php:231
+msgid "Error while deactivating license"
+msgstr ""
+
+#: includes/helper-functions.php:85
+msgid "Twitter"
+msgstr ""
+
+#: includes/helper-functions.php:86
+msgid "Facebook"
+msgstr ""
+
+#: includes/helper-functions.php:87
+msgid "Linkedin"
+msgstr ""
+
+#: includes/helper-functions.php:88
+msgid "Pinterest"
+msgstr ""
+
+#: includes/helper-functions.php:89
+msgid "Google+"
+msgstr ""
+
+#: includes/helper-functions.php:174
+msgid "Before Entry"
+msgstr ""
+
+#: includes/helper-functions.php:175
+msgid "After Entry"
+msgstr ""
+
+#: templates/admin/meta-box.php:22 templates/admin/meta-box.php:26
+msgid "License Key"
+msgstr ""
+
+#: templates/admin/meta-box.php:32
+msgid "Deactivate License"
+msgstr ""
+
+#: templates/admin/meta-box.php:34
+msgid "Activate License"
+msgstr ""
+
+#: templates/admin/meta-box.php:45
+msgid "License Information"
+msgstr ""
+
+#: templates/admin/meta-box.php:46
+msgid "Status:"
+msgstr ""
+
+#: templates/admin/meta-box.php:47
+msgid "Expiration:"
+msgstr ""
+
+#: templates/admin/meta-box.php:59 templates/admin/meta-box.php:63
+msgid "Enable Author Box"
+msgstr ""
+
+#: templates/admin/meta-box.php:68
+msgid "Check to enable the author box"
+msgstr ""
+
+#: templates/admin/meta-box.php:77 templates/admin/meta-box.php:81
+msgid "Position"
+msgstr ""
+
+#: templates/admin/meta-box.php:94
+msgid "This is where the author box will be displayed."
+msgstr ""
+
+#: templates/admin/meta-box.php:101 templates/admin/meta-box.php:105
+msgid "Post Types"
+msgstr ""
+
+#: templates/admin/meta-box.php:120
+msgid "Which post types should display the author box?"
+msgstr ""
+
+#: templates/admin/meta-box.php:127 templates/admin/meta-box.php:131
+msgid "Social Links"
+msgstr ""
+
+#: templates/admin/meta-box.php:144
+msgid ""
+"Social links displayed in the author box. The author's profile links are set "
+"under the Contact Info section of the profile editor."
+msgstr ""
+
+#: templates/admin/meta-box.php:151 templates/admin/meta-box.php:155
+msgid "Display Website?"
+msgstr ""
+
+#: templates/admin/meta-box.php:160
+msgid "Check to link to an author's website"
+msgstr ""
+
+#: templates/admin/meta-box.php:169 templates/admin/meta-box.php:173
+msgid "Display RSS Link?"
+msgstr ""
+
+#: templates/admin/meta-box.php:178
+msgid "Check to link to an author's RSS feed"
+msgstr ""
+
+#: templates/admin/meta-box.php:187 templates/admin/meta-box.php:191
+msgid "Display Gravatar?"
+msgstr ""
+
+#: templates/admin/meta-box.php:196
+msgid "Check to display an author's Gravatar"
+msgstr ""
+
+#: templates/admin/meta-box.php:205 templates/admin/meta-box.php:209
+msgid "Title Text"
+msgstr ""
+
+#: templates/admin/meta-box.php:216
+msgid ""
+"i.e. \"About the Author\", \"About John Smith\", etc. You can use the "
+"following tags: <strong>{full_name}</strong>, and <strong>{display_name}</"
+"strong>."
+msgstr ""
+
+#: templates/author-box-output.php:50
+msgid "Website"
+msgstr ""
+
+#: templates/author-box-output.php:58
+msgid "RSS"
+msgstr ""

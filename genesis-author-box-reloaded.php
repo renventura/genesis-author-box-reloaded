@@ -122,6 +122,7 @@ class Genesis_Auhthor_Box_Reloaded {
 	public function hooks() {
 
 		register_activation_hook( GENESIS_AUTHOR_BOX_PLUGIN_FILE, array( $this, 'activate' ) );
+		add_action( 'plugins_loaded', array( $this, 'plugins_load' ) );
 	}
 
 	/**
@@ -136,6 +137,14 @@ class Genesis_Auhthor_Box_Reloaded {
 		if ( ! function_exists( 'genesis' ) ) {
 			wp_die( $message );
 		}
+	}
+
+	/**
+	 *	Load text domain
+	 */
+	public function plugins_load() {
+		load_plugin_textdomain( 'genesis-author-box-reloaded', false, trailingslashit( WP_LANG_DIR ) . 'plugins/' );
+		load_plugin_textdomain( 'genesis-author-box-reloaded', false, plugin_basename( dirname( __FILE__ ) ) . '/languages/' );
 	}
 }
 
