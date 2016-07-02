@@ -3,7 +3,7 @@
  * Plugin Name: Genesis Author Box Reloaded
  * Plugin URI: https://www.engagewp.com/downloads/genesis-author-box-reloaded/
  * Description: Create and customize an author box to display on your WordPress posts. Built for the Genesis Framework.
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author: Ren Ventura
  * Author URI: https://www.engagewp.com/
  * Text Domain: genesis-author-box-reloaded
@@ -75,7 +75,7 @@ class Genesis_Auhthor_Box_Reloaded {
 
 		// Plugin version
 		if ( ! defined( 'GENESIS_AUTHOR_BOX_PLUGIN_VERSION' ) ) {
-			define( 'GENESIS_AUTHOR_BOX_PLUGIN_VERSION', '1.0.0' );
+			define( 'GENESIS_AUTHOR_BOX_PLUGIN_VERSION', '1.1.0' );
 		}
 
 		// Plugin file

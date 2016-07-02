@@ -22,18 +22,19 @@ function genesis_author_box_filter_default_author_box( $default ) {
 /**
  *	Modify contact methods
  */
-add_filter( 'user_contactmethods', 'genesis_author_box_reloaded_contact_methods' );
+add_filter( 'user_contactmethods', 'genesis_author_box_reloaded_contact_methods', 15 );
 function genesis_author_box_reloaded_contact_methods( $fields ) {
 
 	unset( $fields['url'] );
 	unset( $fields['yim'] );
 	unset( $fields['jabber'] );
+	unset( $fields['googleplus'] );
 
 	$links = genesis_author_box_reloaded_social_link_types();
 
 	foreach ( $links as $link => $label ) {
 		if ( ! isset( $fields[$link] ) ) {
-			$fields[$link] = $label;
+			$fields[$link] = $label . ' ' . __( 'URL', 'genesis-author-box-reloaded' );
 		}
 	}
 

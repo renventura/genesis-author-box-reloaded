@@ -250,3 +250,24 @@ function genesis_author_box_reloaded_get_bio() {
 
 	return apply_filters( 'genesis_author_box_reloaded_author_bio', $bio );
 }
+
+/**
+ *	Sanitizes a given URL
+ */
+function genesis_author_box_reloaded_sanitize_url( $url ) {
+	return filter_var( $url, FILTER_SANITIZE_URL );
+}
+
+/**
+ *	Verifies that a given input is a valid URL
+ */
+function genesis_author_box_reloaded_is_valid_url( $url ) {
+
+	$url = genesis_author_box_reloaded_sanitize_url( $url );
+
+	if ( filter_var( $url, FILTER_VALIDATE_URL ) ) {
+		return $url;
+	} else {
+		return false;
+	}
+}

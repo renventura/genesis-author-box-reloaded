@@ -34,10 +34,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 			<?php foreach ( $links as $key => $val ) : ?>
 
-				<?php if ( get_the_author_meta( $key, $author_id ) ) : // Author's Social Links ?>
+				<?php
+					// Validate the profile URL
+					$valid_profile_url = genesis_author_box_reloaded_is_valid_url( get_the_author_meta( $key, $author_id ) );
+				?>
+
+				<?php if ( get_the_author_meta( $key, $author_id ) && $valid_profile_url ) : // Author's Social Links ?>
 
 					<span class="author-box-icon">
-						<a href="<?php echo get_the_author_meta( $key, $author_id ); ?>" target="<?php echo apply_filters( 'genesis_author_box_reloaded_links_target', '_blank' ); ?>"><img src="<?php echo $icons[$key]; ?>" alt="<?php echo $key; ?>" width="<?php echo apply_filters( 'genesis_author_box_reloaded_icon_size', 40 ); ?>"></a>
+						<a href="<?php echo $valid_profile_url; ?>" target="<?php echo apply_filters( 'genesis_author_box_reloaded_links_target', '_blank' ); ?>"><img src="<?php echo $icons[$key]; ?>" alt="<?php echo $key; ?>" width="<?php echo apply_filters( 'genesis_author_box_reloaded_icon_size', 40 ); ?>"></a>
 					</span>
 
 				<?php endif; ?>
