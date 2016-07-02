@@ -1,0 +1,7 @@
+Genesis Author Box Reloaded
+
+July 1, 2016 - version 1.1.0
+* Tweak: Validate social profile URLs before outputting the links, and add better labels to the profile inputs for clarity.
+
+May 22, 2016 - version 1.0.0
+* Initial version
