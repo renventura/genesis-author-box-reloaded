@@ -4,7 +4,7 @@ Contributors: Ren Ventura
 Tags: Genesis, author box
 Requires at least: 4.5
 Tested up to: 4.6
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPL 2.0+
 License URI: http://www.opensource.org/licenses/gpl-license.php
 
@@ -43,6 +43,10 @@ Yes, you can upgrade to any higher license whenever you need.
 If your license has expired, you won’t be able to access important updates or support.
 
 == Changelog ==
+
+= August 26, 2016 - version 1.1.1 =
+
+* Maintenance: Updated licensing API file
 
 = July 1, 2016 - version 1.1.0 =
 

@@ -1,5 +1,8 @@
 Genesis Author Box Reloaded
 
+August 26, 2016 - version 1.1.1
+* Maintenance: Updated licensing API file
+
 July 1, 2016 - version 1.1.0
 * Tweak: Validate social profile URLs before outputting the links, and add better labels to the profile inputs for clarity.
 
